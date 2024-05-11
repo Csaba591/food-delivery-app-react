@@ -1,0 +1,14 @@
+.header {
+    list-style: none;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+.header {
+    display: flex;
+    gap: 1em;
+}
+
+.header > .end {
+    margin-left: auto;
+}
