@@ -1,0 +1,15 @@
+.cart__dropdown-container {
+    position: relative;
+    display: inline-block;
+}
+
+.cart__dropdown {
+    position: absolute;
+    left: -200%;
+    background-color: gray;
+}
+
+.cart__dropdown>ul {
+    list-style: none;
+    padding: 1em;
+}
