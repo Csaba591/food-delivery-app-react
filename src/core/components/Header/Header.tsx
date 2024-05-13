@@ -3,8 +3,8 @@ import './Header.css'
 
 export function Header() {
     return (
-        <nav>
-            <ul className="header">
+        <nav className="header">
+            <ul className="header-items">
                 <li><Link to={'/'}>Home</Link></li>
                 <li><Link to={'/restaurants'}>Restaurants</Link></li>
                 <li><Link to={'/promotions'}>Promotions</Link></li>

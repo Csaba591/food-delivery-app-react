@@ -1,14 +1,16 @@
 .header {
-    list-style: none;
-    padding-left: 3em;
-    padding-right: 3em;
+    background-color: whitesmoke;
+    padding: 1em 3em;
 }
 
-.header {
+.header-items {
     display: flex;
     gap: 1em;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
-.header > .end {
+.header-items > .end {
     margin-left: auto;
 }

@@ -1,0 +1,21 @@
+.food-types-list {
+    display: flex;
+    gap: 0.5em;
+}
+
+button.active {
+    border: .25em solid darkcyan;
+}
+
+.loading-indicator {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foods-container {
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+}

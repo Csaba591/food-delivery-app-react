@@ -1,0 +1,11 @@
+.button {
+    box-sizing: border-box;
+    padding: .2em .5em;
+    background: white;
+    border: .25em solid transparent;
+    border-radius: .25em;
+}
+
+.button:hover {
+    background-color: white;
+}
